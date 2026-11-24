@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 密钥（严禁提交真实密钥）
+.env
+*.env
+!*.env.example
+
+# 运行产物（缓存 / 映射表输出 / 日志）
+cache/
+map/
+*.xlsx
+*.csv
+*.log
